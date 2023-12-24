@@ -3,7 +3,9 @@
   src: url("https://assets.codepen.io/35984/51550-webfont.woff2")
     format("woff2");
 }
-
+*{
+  user-select : none;
+}
 body {
   background-color: #e8ddc5;
   overflow: hidden;
