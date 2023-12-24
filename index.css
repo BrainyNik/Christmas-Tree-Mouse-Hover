@@ -3,6 +3,7 @@
   src: url("https://assets.codepen.io/35984/51550-webfont.woff2")
     format("woff2");
 }
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
 *{
   user-select : none;
 }
@@ -31,7 +32,7 @@ svg {
 }
 
 line {
-  /* stroke: red; */
+
   stroke-width: 2px;
 }
 text {
@@ -43,6 +44,8 @@ text {
 }
 #m1 {
   font-size: 6em;
+    font-family: "Patrick Hand SC";
+
 }
 footer {
   position: absolute;
